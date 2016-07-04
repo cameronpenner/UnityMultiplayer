@@ -12,6 +12,8 @@ public class NetworkComponentController : NetworkBehaviour
 
 	private void Start()
 	{
+		GetComponent<NetworkAnimator>().SetParameterAutoSend(0, true);
+
 		if(!isLocalPlayer)
 		{
 			foreach(var behaviour in _clientBehaviours)

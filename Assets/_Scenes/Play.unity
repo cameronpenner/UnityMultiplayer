@@ -527,6 +527,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11497260, guid: f55d5b3859f3c8c4aac24729e6a68d36, type: 2}
+      propertyPath: m_SyncSpin
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f55d5b3859f3c8c4aac24729e6a68d36, type: 2}
   m_IsPrefabParent: 0
